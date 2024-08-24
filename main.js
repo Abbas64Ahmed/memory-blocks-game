@@ -153,7 +153,7 @@ function timeEnd() {
                 timeEnd()
             })
         
-    }, 120000);
+    }, 180000);
 }
 
 function makeliderboard() {
