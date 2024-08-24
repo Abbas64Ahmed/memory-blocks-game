@@ -56,6 +56,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+@media (max-width: 990px) {
+    .starting-screen .start-btn,
+    .endign-screen .end-btn {
+     font-size: 16px;   
+    padding: 10px 15px;
+    }
+}
 .contaner .status-bar {
     display: flex;
     justify-content: space-between;
@@ -69,7 +76,7 @@ body {
 }
 @media (max-width: 990px) {
     .contaner .status-bar {
-     font-size: 15px;   
+     font-size: 14px;   
     }
 }
 .contaner .blocks-contaner {
