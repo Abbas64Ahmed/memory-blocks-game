@@ -56,6 +56,28 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.difficulty-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #2195f35e;
+    z-index: 4;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.difficulty-screen span {
+    background-color: #db36f4;
+    color: white;
+    border-radius: 4px;
+    padding: 15px 35px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
 @media (max-width: 990px) {
     .starting-screen .start-btn,
     .endign-screen .end-btn {
